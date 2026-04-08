@@ -1,4 +1,4 @@
-cat > tests/test_calculator.py << 'EOF'
+
 import sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
@@ -17,4 +17,3 @@ def test_zero():
         assert False
     except:
         assert True
-EOF

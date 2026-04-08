@@ -1,4 +1,3 @@
-cat >> hello.py << 'EOF'
 
 def farewell(name):
     return f"Goodbye, {name}!"
